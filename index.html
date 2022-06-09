@@ -6,13 +6,11 @@
     <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
-    <header class="page-header">
+    <header class="navigation">
       <a href="index.html">
         <img class="logo-sedona-header" src="images/logo-header.svg" width="139" height="70" alt="логотип Sedona">
       </a>
-      
-      <nav class="navigation">
-          <ul class="navigation-list">
+      <ul class="navigation-list">
             <li class="navigation-item">
               <a class="navigation-link navigation-link-current" href="index.html">Главная</a>
             </li>
@@ -23,9 +21,7 @@
               <a class="navigation-link" href="catalog.html">Гостиницы</a>
             </li>
           </ul>
-        
-
-           <ul class="navigation-user">
+      <ul class="navigation-user">
             <li class="navigation-item">
               <a class="navigation-link" href="#">
               <span class="visually-hidden">Поиск</span>
@@ -40,10 +36,9 @@
               <a class="navigation-link" href="#">Хочу сюда</a>
             </li>
         </ul>
-      </nav>
     </header>
 
-    <main class="main-index">
+    <main class="main-index main-conteiner">
       <section class="logo-slogan">
         <div class="welcome-sedona">
           <h1 class="visually-hidden">Wecome Sedona</h1>
@@ -56,11 +51,13 @@
 
      <section class="reason">
         <ul class="reason-list">
-          <li class="reason-one">
-            <h3 class="reason-name">Настоящий городок</h3>
-            <p class="raason-number">— №1 —</p>
-            <p class="reason-desc">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
-            <img class="city-image" src="images/town.jpg" width="800" height="384" alt="город Седона">
+          <li class="reason-one reason-first">
+            <div>
+              <h3 class="reason-name">Настоящий городок</h3>
+              <p class="raason-number">— №1 —</p>
+              <p class="reason-desc">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+              <img class="city-image" src="images/town.jpg" width="800" height="384" alt="город Седона">
+            </div>
             <ul class="advantages">
               <li class="advantages-house">
                 <h3 class="advantages-name">Жильё</h3>
@@ -79,24 +76,26 @@
               </li>
             </ul>
           </li>
-          <li class="reason-two">
-            <h3 class="reason-name">Там есть
-              мост дьявола</h3>
-            <p class="raason-number">— №2 —</p>
-            <p class="reason-desc">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
-            <img class="bridge-image" src="images/bridge.jpg" width="800" height="384" alt="мост дьявола">
+          <li class="reason-two reason-first">
+            <div>
+              <h3 class="reason-name">Там есть
+                мост дьявола</h3>
+              <p class="raason-number">— №2 —</p>
+              <p class="reason-desc">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+              <img class="bridge-image" src="images/bridge.jpg" width="800" height="384" alt="мост дьявола">
+            </div> 
           </li>
-          <li class="reason-three ">
+          <li class="reason-three reason-last">
             <h3 class="reason-name">Небольшая площадь</h3>
             <p class="raason-number">— №3 —</p>
             <p class="reason-desc">Все достопримечательности находятся очень близко</p>
           </li>
-          <li class="reason-four">
+          <li class="reason-four reason-last">
             <h3 class="reason-name">Красивая дорога</h3>
             <p class="raason-number">— №4 —</p>
             <p class="reason-desc">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
           </li>
-          <li class="reason-five">
+          <li class="reason-five reason-last">
             <h3 class="reason-name">Мало туристов</h3>
             <p class="raason-number">— №5 —</p>
             <p class="reason-desc">Большинство едет в Гранд Каньон и толпится там</p>
@@ -147,7 +146,7 @@
         <a href="https://htmlacademy.ru/">
           <img class="logo-html_academy" src="images/logo-futer.svg" width="115" height="34" alt="логотип htmlacademy">
         </a>
-    </div>
+      </div>
     </footer>
   </body>
 </html>

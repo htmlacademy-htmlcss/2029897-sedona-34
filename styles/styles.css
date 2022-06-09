@@ -14,9 +14,15 @@
     font-display: swap;
 }
 
-                           /* INDEX */
-
+html {
+    height: 100%;   /* ??? */
+}
+                          
 body {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;    /* ??? */
     font-family: "PT Sans", sans-serif;
     font-weight:400;
     font-size: 18px;   
@@ -25,6 +31,11 @@ body {
     background-color:#ffffff;   
     color:#000000;    
 }
+
+.main-conteiner {       /* ??? */
+flex-grow: 1;         
+} 
+
 
 .page-header {
     color: #000000;
@@ -247,4 +258,84 @@ color: #000000;
 .rating {
     font-size: 16px;
     line-height: 20px;
+}
+
+
+/* по 5ой главе */
+
+.navigation {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.navigation-list {
+    margin: 0px;
+    padding: 0px;
+    width: 450px;
+}
+
+.navigation-user {
+    margin: 0px;
+    padding: 0px;
+    width: 300px;
+    margin-left: auto;
+}
+
+.main-conteiner {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.page-footer {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.logo-main {
+    display: block;
+    margin: 0 auto;
+}
+
+.reason-list {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.reason-first {
+    width: 1200px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.reason-last {
+    width: 400px;
+}
+
+.advantages {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+
+.advantages li {
+    margin: 0px;
+    padding: 0px;
+    width: 400px;
+}
+
+.reason-first div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 1200px;
+    height: 384px;
+    justify-content: center;
+}
+
+.city-image {
+    max-width: 800px;
 }
