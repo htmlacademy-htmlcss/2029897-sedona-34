@@ -30,13 +30,16 @@ body {
   font-size: 18px;
   line-height: 21px;
   font-style: normal;
-  background-color: #ffffff;
+  background-color: #E5E5E5;
   color: #000000;
 }
 
 .main-conteiner {
   /* ??? */
   flex-grow: 1;
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #ffffff;
 }
 
 
@@ -86,27 +89,32 @@ body {
   font-size: 22px;
   line-height: 26px;
   text-align: center;
-
 }
 
-.reason-list {
-  text-align: center;
-}
-
-.reason-blue {
-  background-color: #82B3D3;
+.reason-list  {
   color: #ffffff;
+  text-align: center;
+  color: #000000;
 }
+
+.dark-blue {
+  background-color: #82B3D3;
+}
+
+.light-blue  {
+  background-color:rgba(131, 179, 211, 0.12);
+}
+
+.blue {
+  background-color: rgba(131, 179, 211, 0.2);
+}
+
 
 .advantages {
   color: #000000;
 }
 
-.reason-blue-12 {
-  background-color: #d6e7f3;
-}
 
-.advantages-house,
 .advantages-food {
   background-color: #ffffff;
 }
@@ -185,7 +193,8 @@ body {
 /* CATAlog */
 
 .hotel-search {
-  background-color: #82B3D3;
+  background-color: #7c552d;
+  background-image: url(../images/hotel-search.jpg);
   color: #ffffff;
 }
 
@@ -218,9 +227,26 @@ body {
   text-transform: uppercase;
 }
 
+.button-submit {
+  width: 160px;
+  height: 48px;
+  padding: 14px 15px;
+  background-color: #82B3D3;
+  color: #ffffff;
+  border: #82B3D3;
+  margin-bottom: 20px;
+}
+
 .button-reset {
   font-weight: 400;
   text-transform: none;
+  width: 80px;
+  height: 20px;
+  background-color: rgba(0, 125, 215, 0.0);
+  border:#6bb3e6;
+  align-self:center;
+  color: #ffffff;
+  padding: 0px;
 }
 
 .hotel-offers-quantity {
@@ -269,6 +295,7 @@ body {
   display: flex;
   width: 1200px;
   margin: 0 auto;
+  background-color: #ffffff;
 }
 
 .navigation-list {
@@ -282,11 +309,6 @@ body {
   padding: 0px;
   width: 300px;
   margin-left: auto;
-}
-
-.main-conteiner {
-  width: 1200px;
-  margin: 0 auto;
 }
 
 
@@ -351,6 +373,7 @@ body {
   margin: 0 auto;
   display: flex;
   align-items: center;
+  background-color:#ffffff
 }
 
 .footer-social {
@@ -390,6 +413,7 @@ body {
 .flex-button {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .infrastructure {
@@ -397,9 +421,20 @@ body {
   margin-right: 70px;
 }
 
+.infrastructure-list {
+  list-style: none;
+  padding:0px;
+}
+
 .type-of-housing {
   width: 145px;
   margin-right: 175px;
+  list-style: none;
+}
+
+.type-of-housing-list {
+  list-style: none;
+  padding:0px;
 }
 
 .hotel {
@@ -451,3 +486,15 @@ body {
 .flex-pagination label {
   width: 386px;
 }
+
+.hotel-list {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+.hotel-list li {
+  padding: 0px;
+  margin: 0px;
+}
+
