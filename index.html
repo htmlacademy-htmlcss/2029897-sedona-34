@@ -10,7 +10,7 @@
 <body>
   <div class="site-container">
     <header class="navigation">
-      <a href="index.html">
+      <a class="logo-sedona-header-link" href="index.html">
         <img class="logo-sedona-header" src="images/logo-header.svg" width="139" height="70" alt="логотип Sedona">
       </a>
       <ul class="navigation-list">
@@ -25,19 +25,19 @@
         </li>
       </ul>
     </ul>
-      <ul class="navigation-list navigation-user">
-        <li class="navigation-item">
-          <a class="navigation-link" href="#">
+      <ul class="navigation-user">
+        <li class="navigation-user-item navigation-user-item-first">
+          <a class="navigation-user-link " href="#">
             <span class="visually-hidden">Поиск</span>
           </a>
         </li>
-        <li class="navigation-item">
-          <a class="navigation-link" href="#">
+        <li class="navigation-user-item navigation-user-item-second">
+          <a class="navigation-user-link" href="#">
             <span class="visually-hidden">Лайк</span>
           </a>
         </li>
-        <li class="navigation-item">
-          <a class="navigation-link" href="#">Хочу сюда</a>
+        <li class="navigation-user-item navigation-user-item-three">
+          <a class="navigation-user-link-button" href="#">Хочу сюда!</a>
         </li>
       </ul>
     </header>
@@ -59,7 +59,7 @@
             <div class="flex-reason dark-blue">
               <div class="flex-reason-column">
                 <h3 class="reason-name">Настоящий городок</h3>
-                <p class="raason-number">— №1 —</p>
+                <p class="reason-number">— №1 —</p>
                 <p class="reason-desc">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
               </div>
               <div class="reason-pic"><img class="city-image" src="images/town.jpg" width="800" height="384" alt="город Седона"></div>
@@ -87,7 +87,7 @@
               <div class="flex-reason-column">
                 <h3 class="reason-name">Там есть
                   мост дьявола</h3>
-                <p class="raason-number">— №2 —</p>
+                <p class="reason-number">— №2 —</p>
                 <p class="reason-desc">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
               </div>
               <div class="reason-pic"><img class="bridge-image" src="images/bridge.jpg" width="800" height="384" alt="мост дьявола"></div>
@@ -95,17 +95,17 @@
           </li>
           <li class="reason-item  light-blue reason-item-last">
             <h3 class="reason-name">Небольшая площадь</h3>
-            <p class="raason-number">— №3 —</p>
+            <p class="reason-number">— №3 —</p>
             <p class="reason-desc">Все достопримечательности находятся очень близко</p>
           </li>
           <li class="reason-item blue reason-item-last">
             <h3 class="reason-name">Красивая <br> дорога</h3>
-            <p class="raason-number">— №4 —</p>
+            <p class="reason-number">— №4 —</p>
             <p class="reason-desc">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
           </li>
           <li class="reason-item  light-blue reason-item-last">
             <h3 class="reason-name">Мало <br>туристов</h3>
-            <p class="raason-number">— №5 —</p>
+            <p class="reason-number">— №5 —</p>
             <p class="reason-desc">Большинство едет в Гранд Каньон и толпится там</p>
           </li>
         </ul>
@@ -120,7 +120,7 @@
       <section class="email">
         <h2>Подпишитесь на рассылку</h2>
         <p>Только полезная информация и никакого спама,<br> честное бойскаутское!</p>
-        <form action="https://echo.htmlacademy.ru/" method="get">
+        <form class="email-form" action="https://echo.htmlacademy.ru/" method="get">
           <input class="input-email" type="email" name="email" id="email" placeholder="Ваш e-mail">
           <button class="button-email" type="submit" value="Подписаться">Подписаться</button>
         </form>
